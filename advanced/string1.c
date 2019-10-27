@@ -5,6 +5,9 @@ int    main(void)
     //understanding string allocation memory and pointer ref.
     char    tabChar[5] = "toto";
     
+    int    i;
+    i = 0;
+    
     printf("memory adress of tabChar(=tabChar[O])-->%p\n", tabChar);
     printf("tabchar value 2nd elem-->%c\n", *(tabChar + 1));
     printf("1er char -->%c\n", tabChar[0]);
