@@ -15,5 +15,6 @@ int    main(void)
     printf("3er char -->%c\n", tabChar[2]);
     printf("4er char -->%c\n", tabChar[3]);
     printf("5er char -->%c\n", tabChar[4]);//end of string (='\0')
+    
     return 0;
 }
